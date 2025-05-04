@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Hero Section Styles */
+.carousel-item {
+  height: 500px; /* Default height for smaller screens */
+  object-fit: cover; /* Ensure images cover the full area */
+}
+
+
+@media (max-width: 904px) {
+  #category {
+    transform: scale(1.1) translateX(40px);
+    width: fit-content;         /* Yeh important hai taaki content ka size ho aur center ho sake */
+    margin: 150px auto 5px auto;  /* Upar 150px aur horizontal center */
+    padding: 0 1rem;
+    display: block;
+  }
+  #Top {
+    transform: scale(1) translateX(20px);
+    width: fit-content;         /* Yeh important hai taaki content ka size ho aur center ho sake */
+    margin: 150px auto 5px auto;  /* Upar 150px aur horizontal center */
+    padding: 0 1rem;
+    display: block;
+  }
+  #Online {
+    transform: scale(1.1) translateX(90px);
+             /* Yeh important hai taaki content ka size ho aur center ho sake */
+    margin: 150px auto 5px auto;  /* Upar 150px aur horizontal center */
+    padding: 0 0rem;
+    display: block;
+  }
+  #Hero {
+    transform: scale(1.3) translateX(170px) translateY(50px);
+    width: fit-content;         /* Yeh important hai taaki content ka size ho aur center ho sake */
+    margin: 150px auto 5px auto;  /* Upar 150px aur horizontal center */
+    padding: 0 1rem;
+    display: block;
+  }
+  #Footer {
+    transform: scale(1) translateX(170px) translateY(80px) ;
+    
+  }
+  #crd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 0rem; /* gap ko bhi customize kar sakte ho yahan */
+    padding: 0 1rem;
+  }
+}
+  
+
+    
+  
+
+  
+  
