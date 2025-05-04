@@ -43,18 +43,4 @@ Swiggy/
 ![Screenshot 2025-05-04 163737](https://github.com/user-attachments/assets/049b3614-0e97-48bd-aea2-5d9499b63476)
 
 
-🛠️ Setup Instructions
-bash
-Copy
-Edit
-# Clone the repo
-git clone https://github.com/your-username/swiggy-clone.git
 
-# Navigate to the project folder
-cd swiggy-clone/Swiggy
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
